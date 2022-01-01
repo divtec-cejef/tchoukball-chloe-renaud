@@ -1,0 +1,5 @@
+.logo-principale {
+    position: absolute;
+    left: calc(50% - 180px / 2);
+    max-width: 180px;
+}
