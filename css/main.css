@@ -3,3 +3,16 @@
     left: calc(50% - 180px / 2);
     max-width: 180px;
 }
+
+/*texte*/
+p {
+    font-family: "Roboto Slab Light", sans-serif;
+    font-size: 16px;
+    left: 38px;
+}
+
+.texte-intro {
+    max-width: 275px;
+    top: 185px;
+
+}
