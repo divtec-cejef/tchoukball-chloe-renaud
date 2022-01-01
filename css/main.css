@@ -26,8 +26,12 @@ p {
 }
 
 div.texte-intro {
-    width: 75%;
+    width: 79%;
     margin-top: 27px;
     padding-left: 10px;
     border-left: 1.5px solid #BB9457;
+}
+
+.accueil-1 {
+    margin-top: 37px;
 }
