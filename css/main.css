@@ -7,9 +7,11 @@ body {
     margin-left: 38px;
 }
 
+/*en tête*/
 div.logo-principal {
     width: 180px;
     margin: auto;
+    margin-top: 47px;
 }
 div.logo-principal img {
     width: 180px;
@@ -19,8 +21,10 @@ div.logo-principal img {
 p {
     font-family: "Roboto Slab Light", sans-serif;
     font-size: 16px;
+    color: #3B2E2B;
 }
 
 .texte-intro {
     width: 75%;
+    margin-top: 27px;
 }
