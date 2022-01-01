@@ -26,12 +26,24 @@ p {
 }
 
 div.texte-intro {
-    width: 79%;
+    width: 90%;
     margin-top: 27px;
     padding-left: 10px;
+    margin-left: -10px;
     border-left: 1.5px solid #BB9457;
 }
 
 .accueil-1 {
     margin-top: 37px;
+    width: 90%;
+    border: solid 1.5px #BB9457;
+    max-width: 380px;
 }
+
+.accueil-2, .accueil-3 {
+    width: 45%;
+    border: solid 1.5px #BB9457;
+    max-width: 380px;
+
+}
+
