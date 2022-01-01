@@ -1,19 +1,21 @@
 .logo-principale {
-    position: absolute;
-    left: calc(50% - 180px / 2);
-    max-width: 180px;
+    width: 180px;
+    margin: auto;
 }
+
 body {
-    left : 38px;
+    margin-left: 38px;
 }
+
 /*texte*/
 p {
     font-family: "Roboto Slab Light", sans-serif;
     font-size: 16px;
 }
-
+.logo-principale {
+    margin-bottom: 27px;
+    position: static;
+}
 .texte-intro {
-    max-width: 275px;
-    top: 185px;
-
+    width: 75%;
 }
