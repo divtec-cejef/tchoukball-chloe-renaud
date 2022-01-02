@@ -52,12 +52,13 @@ div.premiere-explication {
     margin-top: 37px;
     width: 100%;
     max-width: 611px;
+    margin-bottom: 37px;
 }
 
 div.citation {
-    width: 50%;
+    width: 60%;
     max-width: 350px;
-    margin-auto;
+    margin: auto;
 }
 
 div.citation p {
@@ -65,3 +66,21 @@ div.citation p {
     font-size: 17px;
 }
 
+div.guillemet1, div.guillemet2 {
+    font-family: "Roboto Slab Light", sans-serif;
+    font-size: 36px;
+    width: 11px;
+    height: 19px;
+    position: absolute;
+    background: transparent;
+}
+
+div.guillemet1 {
+    left: 85px;
+    top: 770px;
+}
+
+div.guillemet2 {
+    left: 220px;
+    top: 865px;
+}
