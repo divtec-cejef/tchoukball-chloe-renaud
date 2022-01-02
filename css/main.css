@@ -3,11 +3,6 @@
     background: #fcf6ee;
 }
 
-body {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 /*en tête*/
 div.logo-principal {
     width: 180px;
@@ -33,10 +28,15 @@ div.texte-intro {
     width: 100%;
     margin-top: 27px;
     padding-left: 10px;
-    margin-left: -10px;
     border-left: 1.5px solid #BB9457;
+    margin-left: 7%;
+    margin-right: 10%;
 }
 
+div.images-intro {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .accueil-1 {
     margin-top: 37px;
     width: 100%;
@@ -53,12 +53,16 @@ div.premiere-explication {
     width: 100%;
     max-width: 611px;
     margin-bottom: 37px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 div.citation {
     width: 60%;
     max-width: 350px;
     margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 div.citation p {
@@ -73,6 +77,7 @@ div.guillemet1, div.guillemet2 {
     height: 19px;
     position: absolute;
     background: transparent;
+
 }
 
 div.guillemet1 {
