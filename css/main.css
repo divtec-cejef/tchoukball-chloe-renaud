@@ -55,11 +55,17 @@ div.premiere-explication {
 }
 
 div.citation {
-    margin: auto;
+    max-width: 300px;
+    width: 100%;
+}
+
+div.texte-citation {
+    position: relative;
+    left: calc(50% - 220px / 2);
     width: 220px;
 }
 
-div.citation p {
+div.texte-citation p {
     font-family: "Roboto Slab", sans-serif;
     font-size: 17px;
 }
