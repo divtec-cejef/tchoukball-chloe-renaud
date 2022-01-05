@@ -61,7 +61,7 @@ div.citation {
 
 div.texte-citation {
     position: relative;
-    left: calc(50% - 220px / 2);
+    margin: auto;
     width: 220px;
 }
 
