@@ -29,6 +29,21 @@ div.logo-principal img {
 }
 
 
+/*menu*/
+line {
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke: var(--bleu-fonce);
+}
+
+nav {
+    position: absolute;
+    left: 21px;
+    top: 40px;
+}
+
+
+
 /*texte*/
 p {
     font-family: "Roboto Slab Light", sans-serif;
@@ -143,8 +158,3 @@ div.guillemet2 {
     top: -27px;
 }
 
-line {
-    stroke-width: 3;
-    stroke-linecap: round;
-    stroke: var(--bleu-fonce);
-}
