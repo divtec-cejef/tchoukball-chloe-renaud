@@ -2,10 +2,12 @@
 * {
     background: #fcf6ee;
 }
-body {
+
+main {
     margin-right: 10%;
     margin-left: 10%;
 }
+
 /*en tête*/
 div.logo-principal {
     width: 180px;
@@ -94,7 +96,7 @@ div.guillemet2 {
 
 div.logos {
     background-color: #9AADBF;
-    height: 194px;+
+    height: 194px;
     width: 100%;
 }
 
