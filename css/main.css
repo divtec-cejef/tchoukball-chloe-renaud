@@ -1,9 +1,10 @@
 /*Principal*/
 * {
     --blanc: #fcf6ee;
-    --bleuCLair: #9AADBF;
+    --bleu-clair: #9AADBF;
     --jaune: #BB9457;
     --brun: #3B2E2B;
+    --bleu-fonce: #2E6171;
 }
 
 main {
@@ -37,7 +38,7 @@ p {
 
 /*pied de page*/
 footer {
-    background-color: var(--bleuCLair);
+    background-color: var(--bleu-clair);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -130,7 +131,6 @@ div.guillemet1, div.guillemet2 {
     height: 19px;
     position: relative;
     background: transparent;
-
 }
 
 div.guillemet1 {
@@ -143,3 +143,8 @@ div.guillemet2 {
     top: -27px;
 }
 
+line {
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke: var(--bleu-fonce);
+}
