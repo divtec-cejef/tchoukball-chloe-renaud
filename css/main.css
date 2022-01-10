@@ -92,11 +92,19 @@ div.guillemet2 {
 
 /*pied de page*/
 
+div.logos {
+    background-color: #9AADBF;
+    height: 194px;+
+    width: 100%;
+}
 
 .logo-youtube {
     width: 53px;
+    background: transparent;
 }
 
 .logo-swisstchoukball {
     width: 65px;
+    background: transparent;
+
 }
