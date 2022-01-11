@@ -12,10 +12,11 @@ main {
     margin-left: 10%;
 }
 
+
 body {
     background: var(--blanc);
-
 }
+
 
 /*en tête*/
 div.logo-principal {
@@ -27,7 +28,6 @@ div.logo-principal {
 div.logo-principal img {
     width: 180px;
 }
-
 
 /*menu*/
 line {
@@ -41,8 +41,6 @@ nav {
     left: 21px;
     top: 40px;
 }
-
-
 
 /*texte*/
 p {
@@ -81,10 +79,16 @@ div.texte-pied-de-page {
     padding-top: 15px;
 }
 
-div.texte-pied-de-page p {
+.sourire {
     text-align: center;
     font-family: "Roboto Slab Light", sans-serif;
     font-size: 16px;
+    color: var(--blanc)
+}
+
+.nom-pied-de-page {
+    font-size: 10px;
+    text-align: center;
     color: var(--blanc)
 }
 
@@ -97,6 +101,7 @@ div.texte-pied-de-page p {
     width: 65px;
     background: transparent;
 }
+
 
 /*page d'accueil*/
 div.texte-intro {
@@ -161,4 +166,3 @@ div.guillemet2 {
     left: 163px;
     top: -27px;
 }
-
