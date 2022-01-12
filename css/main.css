@@ -1,4 +1,12 @@
-/*Principal*/
+/****************************
+********** POLICE **********
+*****************************/
+
+
+
+/****************************
+********** GENERAL **********
+*****************************/
 * {
     --blanc: #fcf6ee;
     --bleu-clair: #9AADBF;
@@ -7,17 +15,17 @@
     --bleu-fonce: #2E6171;
 }
 
+body {
+    background: var(--blanc);
+    font-family: "Roboto Slab Light", sans-serif;
+    font-size: 16px;
+    color: var(--brun);
+}
+
 main {
     margin-right: 10%;
     margin-left: 10%;
 }
-
-
-body {
-    background: var(--blanc);
-}
-
-
 /*en tête*/
 div.logo-principal {
     width: 180px;
@@ -44,9 +52,7 @@ nav {
 
 /*texte*/
 p {
-    font-family: "Roboto Slab Light", sans-serif;
-    font-size: 16px;
-    color: var(--brun);
+
 }
 
 /*pied de page*/
