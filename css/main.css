@@ -68,7 +68,7 @@ div.logo-principal img {
 nav {
     position: absolute;
     left: 21px;
-    top: 40px;
+    top: 30px;
 }
 
 line {
@@ -163,6 +163,7 @@ div.citation {
     max-width: 300px;
     width: 100%;
     margin: 0;
+    margin-left: calc((100% - 252px) / 2);
 }
 
 div.texte-citation {
