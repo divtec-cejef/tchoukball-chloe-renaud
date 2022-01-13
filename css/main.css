@@ -40,6 +40,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: var(--brun);
+    line-height: 20px;
 }
 
 /****************************
@@ -66,7 +67,7 @@ div.logo-principal img {
 
 /***** menu *****/
 nav {
-    position: absolute;
+    position: fixed;
     left: 35px;
     top: 27px;
 }
@@ -77,6 +78,13 @@ line {
     stroke: var(--bleu-fonce);
 }
 
+#menu-déroulant {
+    position: fixed;
+
+    width: 330px;
+    height: 340px;
+    background-color: var(--bleu-fonce);
+}
 
 /***** pied de page ******/
 footer {
