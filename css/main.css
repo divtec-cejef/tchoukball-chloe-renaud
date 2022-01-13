@@ -14,7 +14,7 @@
 
 /* roboto-slab-regular - latin */
 @font-face {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab gras';
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/roboto-slab-v16-latin-regular.eot'); /* IE9 Compat Modes */
@@ -109,7 +109,8 @@ div.texte-pied-de-page {
 
 p.sourire {
     text-align: center;
-    font-family: "Roboto Slab Light", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
     font-size: 16px;
     color: var(--blanc)
 }
@@ -139,7 +140,6 @@ div.texte-intro {
     border-left: 1.5px solid var(--jaune);
     margin-left: -5%;
 }
-
 
 .accueil-1 {
     margin-top: 37px;
@@ -172,13 +172,14 @@ div.texte-citation {
 }
 
 div.texte-citation p {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "Roboto Slab gras", sans-serif;
     font-weight: 400;
     font-size: 17px;
 }
 
 div.guillemet1, div.guillemet2 {
-    font-family: "Roboto Slab Light", sans-serif;
+    font-family: "Roboto Slab gras", sans-serif;
+    font-weight: 400;
     font-size: 36px;
     width: 11px;
     height: 19px;
