@@ -85,7 +85,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    height: 30%;
+    height: 170px;
     margin-top: 75px;
     padding-top: 10px;
 }
@@ -106,7 +106,7 @@ div.texte-pied-de-page {
     padding-top: 15px;
 }
 
-.sourire {
+p.sourire {
     text-align: center;
     font-family: "Roboto Slab Light", sans-serif;
     font-size: 16px;
